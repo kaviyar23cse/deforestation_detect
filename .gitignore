@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained models
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Dataset files (if added later)
+data/
+dataset/
+datasets/
+
+# Jupyter (if used later)
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# IDE
+.vscode/
