@@ -26,6 +26,6 @@ def predict_image(image_path):
     return class_names[predicted.item()]
 
 # Test with an image
-test_image = "C:/Users/kaviy/OneDrive/Pictures/Screenshots/Screenshot 2025-08-22 091446.png"# Change this to an actual image
+test_image = ""# Change this to an actual image
 prediction = predict_image(test_image)
 print(f"Prediction: {prediction}")
