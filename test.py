@@ -26,6 +26,6 @@ def predict_image(image_path):
     return class_names[predicted.item()]
 
 # Test with an image
-test_image = ""# Change this to an actual image
+test_image = "C:/Users/kaviy/deforest/test/Normal/-59.03238,51.85132.jpg"  # Change this to an actual image
 prediction = predict_image(test_image)
 print(f"Prediction result: {prediction}")
